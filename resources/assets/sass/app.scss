@@ -176,7 +176,7 @@ body {
 
 .topic-reply {
     hr {
-        margin-top: 16px;`
+        margin-top: 16px;
         margin-bottom: 16px;
     }
 
@@ -187,5 +187,19 @@ body {
     .meta {
         font-size: 0.9em;
         color: #b3b3b3;
+    }
+}
+
+/* Notifications badge */
+
+.notifications-badge {
+    margin-top: -1px;
+
+    .badge-fade {
+        background-color: #e8e8e8;
+    }
+
+    .badge-hint {
+        background-color: #d15b47 !important;
     }
 }
